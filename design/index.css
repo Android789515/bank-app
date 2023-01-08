@@ -56,6 +56,9 @@
    background: var(--white-bg);
 }
 
+.appMainContent {
+   margin-top: 3em;
+}
 /* =================== */
 
 .appFooter {
