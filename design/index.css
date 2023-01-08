@@ -5,6 +5,7 @@
    --light-green-bg: #98ca32;
    --dark-green: #59761e;
    --avacado-dark: #263409;
+   --avacado-dark-svg: invert(16%) sepia(12%) saturate(4992%) hue-rotate(44deg) brightness(93%) contrast(93%);
 }
 
 .app {
@@ -42,6 +43,10 @@
    color: var(--avacado-dark);
    
    margin: 0;
+}
+
+.menuButton {
+   filter: var(--avacado-dark-svg);
 }
 
 /* =================== */
