@@ -29,6 +29,13 @@
    background: var(--light-green-bg);
 }
 
+.appHeaderLayout {
+   justify-content: space-between;
+   align-items: center;
+
+   height: 100%;
+}
+
 .appTitle {
    color: var(--avacado-dark);
    
