@@ -29,11 +29,11 @@
    background: var(--light-green-bg);
 }
 
-.appHeaderLayout {
+.appHeaderContent {
+   display: grid;
+   grid-auto-flow: column;
    justify-content: space-between;
    align-items: center;
-
-   height: 100%;
 }
 
 .appTitle {
