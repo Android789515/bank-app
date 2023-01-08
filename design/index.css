@@ -63,6 +63,11 @@
    font-size: 3rem;
    color: var(--avacado-dark);
 }
+
+.heroTitleAccent {
+   color: var(--light-green-bg);
+}
+
 /* =================== */
 
 .appFooter {
