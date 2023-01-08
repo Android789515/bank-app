@@ -8,6 +8,17 @@
    --avacado-dark-svg: invert(16%) sepia(12%) saturate(4992%) hue-rotate(44deg) brightness(93%) contrast(93%);
 }
 
+/* =================== */
+/* Unstyling */
+
+.unstyledButton {
+   padding: 0;
+   background: none;
+   border: none;
+}
+
+/* =================== */
+
 .app {
    display: grid;
    grid-template-rows: 4em auto 3em;
@@ -42,7 +53,7 @@
 .appTitle {
    font-size: 2rem;
    color: var(--avacado-dark);
-   
+
    margin: 0;
 }
 
@@ -72,13 +83,4 @@
 
 .appFooter {
    background: var(--avacado-dark);
-}
-
-/* =================== */
-/* Unstyling */
-
-.unstyledButton {
-   padding: 0;
-   background: none;
-   border: none;
 }
