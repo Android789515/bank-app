@@ -6,7 +6,8 @@
    --light-green-bg: #98ca32;
    --dark-green: #59761e;
    --avacado-dark: #263409;
-   --avacado-dark-svg: invert(16%) sepia(12%) saturate(4992%) hue-rotate(44deg) brightness(93%) contrast(93%);
+   --avacado-dark-svg: invert(16%) sepia(12%) saturate(4992%) hue-rotate(44deg)
+      brightness(93%) contrast(93%);
    --dark-bg: #1c1b22;
 }
 
@@ -30,7 +31,10 @@
 
 .pageLayout {
    display: grid;
-   grid-template-columns: minmax(1em, 1fr) minmax(16.25em, 36.875em) minmax(1em, 1fr);
+   grid-template-columns: minmax(1em, 1fr) minmax(16.25em, 36.875em) minmax(
+         1em,
+         1fr
+      );
 
    height: 100%;
 }
@@ -72,6 +76,7 @@
 .appMainContent {
    margin-top: 3em;
 }
+
 .heroTitle {
    font-size: 3rem;
    color: var(--avacado-dark);
