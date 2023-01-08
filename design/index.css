@@ -40,6 +40,7 @@
 }
 
 .appTitle {
+   font-size: 2rem;
    color: var(--avacado-dark);
    
    margin: 0;
