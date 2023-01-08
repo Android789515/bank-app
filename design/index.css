@@ -59,6 +59,10 @@
 .appMainContent {
    margin-top: 3em;
 }
+.heroTitle {
+   font-size: 3rem;
+   color: var(--avacado-dark);
+}
 /* =================== */
 
 .appFooter {
