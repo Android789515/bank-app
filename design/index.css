@@ -6,3 +6,28 @@
    --dark-green: #59761e;
    --avacado-dark: #263409;
 }
+
+.app {
+   display: grid;
+   grid-template-rows: 4em auto 3em;
+
+   min-height: 100vh;
+}
+
+/* =================== */
+
+.appHeader {
+   background: var(--light-green-bg);
+}
+
+/* =================== */
+
+.appMain {
+   background: var(--white-bg);
+}
+
+/* =================== */
+
+.appFooter {
+   background: var(--avacado-dark);
+}
