@@ -14,6 +14,15 @@
    min-height: 100vh;
 }
 
+.layout {
+   display: grid;
+   grid-template-columns: minmax(1em, 1fr) minmax(16.25em, 36.875em) minmax(1em, 1fr);
+}
+
+.layout > * {
+   grid-column: 2 / -2;
+}
+
 /* =================== */
 
 .appHeader {
