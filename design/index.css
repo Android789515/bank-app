@@ -1,11 +1,13 @@
 :root {
    /* Color palette */
+   --white: #fff;
    --white-bg: #f1f8e2;
    --light-green-text: #c0df81;
    --light-green-bg: #98ca32;
    --dark-green: #59761e;
    --avacado-dark: #263409;
    --avacado-dark-svg: invert(16%) sepia(12%) saturate(4992%) hue-rotate(44deg) brightness(93%) contrast(93%);
+   --dark-bg: #1c1b22;
 }
 
 /* =================== */
@@ -77,6 +79,71 @@
 
 .heroTitleAccent {
    color: var(--light-green-bg);
+}
+
+.carousel {
+   display: grid;
+   align-items: center;
+}
+
+.carousel > * {
+   grid-row: 1;
+   grid-column: 1;
+}
+
+.carouselButtons {
+   align-self: start;
+
+   position: relative;
+   z-index: 1;
+
+   display: flex;
+   justify-content: space-between;
+}
+
+.carouselButton {
+   font-size: 1.5rem;
+   color: var(--white);
+
+   align-self: start;
+
+   visibility: hidden;
+
+   aspect-ratio: 1 / 1;
+
+   width: 1.5em;
+
+   margin-top: 2em;
+
+   background: var(--dark-bg);
+   border-radius: 15em;
+}
+
+.carouselButtons:hover .carouselButton {
+   visibility: visible;
+}
+
+.carouselItem {
+   display: grid;
+   grid-template: 10em auto auto / 1fr;
+}
+
+.carouselItemTitle {
+   font-size: 1.5rem;
+
+   grid-row: 2;
+
+   margin: 0;
+}
+
+.carouselItemBody {
+   grid-row: 3;
+}
+
+.carouselItemImage {
+   grid-row: 1;
+
+   max-height: 100%;
 }
 
 /* =================== */
