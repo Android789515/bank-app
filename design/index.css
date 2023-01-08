@@ -20,6 +20,12 @@
    background: var(--light-green-bg);
 }
 
+.appTitle {
+   color: var(--avacado-dark);
+   
+   margin: 0;
+}
+
 /* =================== */
 
 .appMain {
