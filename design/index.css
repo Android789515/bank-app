@@ -189,4 +189,8 @@
    .menuButton {
       width: 2em;
    }
+
+   .heroTitle {
+      font-size: 4rem;
+   }
 }
