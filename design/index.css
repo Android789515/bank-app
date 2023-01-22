@@ -97,16 +97,16 @@
 
 .carousel {
    display: grid;
-   align-items: center;
+   --carouselImageRowSize: max-content;
+   grid-template: var(--carouselImageRowSize) auto auto / 1fr;
 }
 
 .carousel > * {
-   grid-row: 1;
    grid-column: 1;
 }
 
 .carouselButtons {
-   align-self: start;
+   grid-row: 1;
 
    position: relative;
    z-index: 1;
@@ -135,11 +135,6 @@
 
 .carouselButtons:hover .carouselButton {
    visibility: visible;
-}
-
-.carouselItem {
-   display: grid;
-   grid-template: 10em auto auto / 1fr;
 }
 
 .carouselItemTitle {
@@ -193,4 +188,20 @@
    .heroTitle {
       font-size: 4rem;
    }
+
+   .carousel {
+      --carouselImageRowSize: 14em;
+   }
+
+   .carouselItemTitle {
+      font-size: 2rem;
+   }
+
+   .carouselItemBody {
+      font-size: 1.5rem;
+   }
+
+   .carouselItem {
+       --carouselImageSize: 14em;
+    }
 }
