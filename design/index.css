@@ -80,6 +80,8 @@
 .heroTitle {
    font-size: 3rem;
    color: var(--avacado-dark);
+
+   max-width: 12.292em;
 }
 
 .heroTitleAccent {
