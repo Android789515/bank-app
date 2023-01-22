@@ -31,10 +31,11 @@
 
 .pageLayout {
    display: grid;
-   grid-template-columns: minmax(1em, 1fr) minmax(16.25em, 36.875em) minmax(
-         1em,
-         1fr
-      );
+   --pageSideMargins: 1em;
+   grid-template-columns: minmax(var(--pageSideMargins), 1fr) minmax(
+         16.25em,
+         76.875em
+      ) minmax(var(--pageSideMargins), 1fr);
 
    height: 100%;
 }
@@ -163,4 +164,12 @@
 
 .appFooter {
    background: var(--avacado-dark);
+}
+
+/* =================== */
+/* Max carousel image size: 22.75em */
+@media (min-width: 22.75em) {
+   .pageLayout {
+      --pageSideMargins: 2em;
+   }
 }
