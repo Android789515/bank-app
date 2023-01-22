@@ -173,3 +173,20 @@
       --pageSideMargins: 2em;
    }
 }
+
+/* Max page layout width: 36.875em */
+
+@media (min-width: 38.875em) {
+   .app {
+      /* Previously: grid-template-rows: 4em auto 3em; */
+      grid-template-rows: 6em auto 5em;
+   }
+
+   .appTitle {
+      font-size: 3rem;
+   }
+
+   .menuButton {
+      width: 2em;
+   }
+}
