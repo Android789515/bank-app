@@ -113,21 +113,18 @@
 
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 
 .carouselButton {
    font-size: 1.5rem;
    color: var(--white);
 
-   align-self: start;
-
    visibility: hidden;
 
    aspect-ratio: 1 / 1;
 
    width: 1.5em;
-
-   margin-top: 2em;
 
    background: var(--dark-bg);
    border-radius: 15em;
