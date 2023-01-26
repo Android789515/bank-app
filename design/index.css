@@ -32,10 +32,9 @@
 .pageLayout {
    display: grid;
    --pageSideMargins: 1em;
-   grid-template-columns: minmax(var(--pageSideMargins), 1fr) minmax(
-         16.25em,
-         76.875em
-      ) minmax(var(--pageSideMargins), 1fr);
+   grid-template-columns:
+      minmax(var(--pageSideMargins), 1fr) minmax(16.25em, 76.875em)
+      minmax(var(--pageSideMargins), 1fr);
 
    height: 100%;
 }
@@ -139,7 +138,7 @@
 
    grid-row: 2;
 
-   margin-top: .5em;
+   margin-top: 0.5em;
    margin-bottom: 0;
 }
 
