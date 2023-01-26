@@ -167,6 +167,13 @@
    }
 }
 
+/* Limit carousel image width */
+@media (min-width: 24.75em) {
+   .carouselItemImage {
+      max-width: 20.684375em;
+   }
+}
+
 /* Max page layout width: 36.875em */
 @media (min-width: 43.125em) {
    .app {
@@ -198,7 +205,7 @@
       font-size: 1.5rem;
    }
 
-   .carouselItem {
-       --carouselImageSize: 14em;
-    }
+   .carouselItemImage {
+      max-width: 28.9583125em;
+   }
 }
